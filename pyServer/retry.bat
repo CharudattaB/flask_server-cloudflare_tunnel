@@ -12,7 +12,7 @@ set SCRIPT_DIR=%~dp0
 
 :: Run the setup from the same directory as the batch file
 "%SCRIPT_DIR%cloudflared-windows-amd64.msi"
-
+# this is a comment
 
 :: Run the Python app
 echo Starting app...
